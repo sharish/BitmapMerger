@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_xsmall">5dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">25dp</dimen>
+    <dimen name="margin_xlarge">30dp</dimen>
+
+    <dimen name="margin_xsmall_negative">-5dp</dimen>
+    <dimen name="margin_small_negative">-10dp</dimen>
+    <dimen name="margin_medium_negative">-20dp</dimen>
+    <dimen name="margin_large_negative">-25dp</dimen>
+    <dimen name="margin_xlarge_negative">-30dp</dimen>
+
+    <dimen name="text_small">18sp</dimen>
+    <dimen name="text_normal">20sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_xlarge">28sp</dimen>
+    <dimen name="text_xxlarge">32sp</dimen>
+
+
+    <!--  Round rectangle dimensions -->
+
+    <dimen name="round_rectangle_padding">8dp</dimen>
+    <dimen name="round_rectangle_corner_radius">5dp</dimen>
+    <dimen name="round_rectangle_stroke_width">3px</dimen>
+
+
+</resources>

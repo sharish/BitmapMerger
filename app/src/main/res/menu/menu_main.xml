@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cooltechworks.bitmapmerger.MainActivity">
+    <item
+        android:id="@+id/action_center"
+        android:orderInCategory="100"
+        android:title="@string/merge_center"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_angle"
+        android:orderInCategory="100"
+        android:title="@string/merge_angle_away"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_offset"
+        android:orderInCategory="100"
+        android:title="@string/merge_with_offsets"
+        app:showAsAction="never" />
+</menu>

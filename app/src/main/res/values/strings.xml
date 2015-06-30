@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">BitmapMerger</string>
+    <string name="app_name">Bitmap Merger Demo</string>
+
+    <string name="merge_angle_away">Merging with angle away from axis</string>
+    <string name="merge_center">Merging at center</string>
+
+    <string name="scale_factor" formatted="false">Scale factor: %.2f</string>
+    <string name="angle_factor" formatted="false">Angle : %d</string>
+    <string name="from_left">From Left: %d px</string>
+    <string name="from_top">From Top: %d px</string>
+    <string name="merge_with_offsets">Merging with offsets</string>
+
 </resources>
