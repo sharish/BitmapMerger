@@ -11,3 +11,84 @@ Merging at angle away | Merging at center | Merging with offsets
 Moon moving around the earth for various angles | Stamp at center of the document being scaled | Balloon flying in a beach with various offset values
 
 
+###Usage :
+
+####Merging at angle way
+
+```
+int angle = 90; // your angle here
+float scale = 0.5f; // scaling option for merging the image
+Bitmap baseBitmap; // your base bitmap here
+Bitmap mergeBitmap; // your merging bitmap here
+ImageView imgView; // your image view for displaying the merged bitmaps.
+BitmapMergerTask task = new BitmapMergerTask();
+            task.setBaseBitmap(baseBitmap)
+                    .setMergeBitmap(mergeBitmap)
+                    .setMergeListener(new BitmapMergerTask.OnMergeListener() {
+                        @Override
+                        public void onMerge(BitmapMergerTask task, Bitmap mergedBitmap) {
+                            if(imgView != null) {
+                              imgView.setImageBitmap(mergedBitmap);
+                            }
+                        }
+                    })
+                    .setScale(scale)
+                    .setAngle(angle)
+                    .merge();
+
+```
+
+####Merging at center
+
+```
+
+float scale = 0.5f; // scaling option for merging the image
+Bitmap baseBitmap; // your base bitmap here
+Bitmap mergeBitmap; // your merging bitmap here
+ImageView imgView; // your image view for displaying the merged bitmaps.
+BitmapMergerTask task = new BitmapMergerTask();
+            task.setBaseBitmap(baseBitmap)
+                    .setMergeBitmap(mergeBitmap)
+                    .setMergeListener(new BitmapMergerTask.OnMergeListener() {
+                        @Override
+                        public void onMerge(BitmapMergerTask task, Bitmap mergedBitmap) {
+                            if(imgView != null) {
+                              imgView.setImageBitmap(mergedBitmap);
+                            }
+                        }
+                    })
+                    .setScale(scale)
+                    .merge();
+
+```
+
+####Merging with offsets from top left
+
+```
+int leftOffset = 0; // your left offset in pixels
+int topOffset = 0; // your top offset in pixels
+float scale = 0.5f; // scaling option for merging the image
+Bitmap baseBitmap; // your base bitmap here
+Bitmap mergeBitmap; // your merging bitmap here
+ImageView imgView; // your image view for displaying the merged bitmaps.
+BitmapMergerTask task = new BitmapMergerTask();
+            task.setBaseBitmap(baseBitmap)
+                    .setMergeBitmap(mergeBitmap)
+                    .setMergeListener(new BitmapMergerTask.OnMergeListener() {
+                        @Override
+                        public void onMerge(BitmapMergerTask task, Bitmap mergedBitmap) {
+                            if(imgView != null) {
+                              imgView.setImageBitmap(mergedBitmap);
+                            }
+                        }
+                    })
+                    .setScale(scale)
+                    .setOffsets(leftOffset,topOffset)
+                    .merge();
+
+```
+
+
+
+
+
