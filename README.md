@@ -1,3 +1,7 @@
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BitmapMerger-green.svg?style=flat)](https://android-arsenal.com/details/1/2085)
+
+
 # BitmapMerger
 Bitmap Merger is a simple project help you to merge two bitmaps without memory exceptions. The bitmaps are processed in background threads thereby taking the
 load away from UI thread. Along with merge, it also contains the image decoder for decoding images from resources/disk and are sampled
