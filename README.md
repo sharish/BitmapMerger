@@ -13,7 +13,7 @@ Moon moving around the earth for various angles | Stamp at center of the documen
 
 ###Usage :
 
-####Merging at angle way
+####Merging at angle away
 
 ```
 int angle = 90; // your angle here
