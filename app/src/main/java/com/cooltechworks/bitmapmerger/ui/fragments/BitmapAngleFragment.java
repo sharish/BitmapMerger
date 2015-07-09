@@ -137,9 +137,9 @@ public class BitmapAngleFragment extends Fragment {
 
 //          If you're working with larger bitmaps and continuously changing the scale value or angle value, you might notice the lag between slider change
 //            and the image position. To get rid of that, uncomment the following codes.
-            if (mBitmapMergerTask != null && mBitmapMergerTask.getStatus() == BitmapMergerTask.Status.RUNNING) {
-                mBitmapMergerTask.cancel(true);
-            }
+//            if (mBitmapMergerTask != null && mBitmapMergerTask.getStatus() == BitmapMergerTask.Status.RUNNING) {
+//               mBitmapMergerTask.cancel(true);
+//            }
 
 
             mBitmapMergerTask = new BitmapMergerTask();
