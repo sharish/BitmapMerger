@@ -1,5 +1,5 @@
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BitmapMerger-green.svg?style=flat)](https://android-arsenal.com/details/1/2085)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BitmapMerger-green.svg?style=flat)](https://android-arsenal.com/details/1/2085) [![Travis CI](https://api.travis-ci.org/cooltechworks/BitmapMerger.svg?branch=master)](https://travis-ci.org/cooltechworks/BitmapMerger/)
 
 
 # BitmapMerger
