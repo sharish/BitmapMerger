@@ -92,6 +92,11 @@ BitmapMergerTask task = new BitmapMergerTask();
 
 ```
 
+Developed By
+============
+
+* Harish Sridharan - <harish.sridhar@gmail.com>
+
 
 
 
