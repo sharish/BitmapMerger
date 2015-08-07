@@ -19,7 +19,7 @@ Moon moving around the earth for various angles | Stamp at center of the documen
 
 ####Merging at angle away
 
-```
+```java
 int angle = 90; // your angle here
 float scale = 0.5f; // scaling option for merging the image
 Bitmap baseBitmap; // your base bitmap here
@@ -44,8 +44,7 @@ BitmapMergerTask task = new BitmapMergerTask();
 
 ####Merging at center
 
-```
-
+```java
 float scale = 0.5f; // scaling option for merging the image
 Bitmap baseBitmap; // your base bitmap here
 Bitmap mergeBitmap; // your merging bitmap here
@@ -68,7 +67,7 @@ BitmapMergerTask task = new BitmapMergerTask();
 
 ####Merging with offsets from top left
 
-```
+```java
 int leftOffset = 0; // your left offset in pixels
 int topOffset = 0; // your top offset in pixels
 float scale = 0.5f; // scaling option for merging the image
