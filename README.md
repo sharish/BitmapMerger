@@ -15,9 +15,9 @@ Merging at angle away | Merging at center | Merging with offsets
 Moon moving around the earth for various angles | Stamp at center of the document being scaled | Balloon flying in a beach with various offset values
 
 
-###Usage :
+### Usage:
 
-####Merging at angle away
+#### Merging at angle away
 
 ```java
 int angle = 90; // your angle here
@@ -42,7 +42,7 @@ BitmapMergerTask task = new BitmapMergerTask();
 
 ```
 
-####Merging at center
+#### Merging at center
 
 ```java
 float scale = 0.5f; // scaling option for merging the image
@@ -65,7 +65,7 @@ BitmapMergerTask task = new BitmapMergerTask();
 
 ```
 
-####Merging with offsets from top left
+#### Merging with offsets from top left
 
 ```java
 int leftOffset = 0; // your left offset in pixels
